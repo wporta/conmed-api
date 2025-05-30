@@ -9,5 +9,5 @@ import java.util.List;
 @Repository
 public interface PatientRepository extends JpaRepository<Patient, Long> {
 
-    public List<Patient> getPatientsByGender(Gender gender);
+    List<Patient> getPatientsByGender(Gender gender);
 }

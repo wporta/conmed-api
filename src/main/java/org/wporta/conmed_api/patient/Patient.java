@@ -31,4 +31,12 @@ public class Patient {
 
     @Column(nullable = false, unique = true)
     public String recordNumber;
+
+    public String phone;
+
+    public String cellPhone;
+
+    public String email;
+
+    private String address;
 }
